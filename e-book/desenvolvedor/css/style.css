@@ -1,0 +1,168 @@
+:root {
+    --azul: #4E56FF;
+    --verde: #48D259;
+    --azul-2: #444AC6;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Gradiente/binary Section */
+
+.blue-header {
+    background-color: #4E56FF;
+}
+
+.binary-header {
+    background-image: url('../img/binary.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradiente-header {
+    background: #ffffff00;
+    background: -moz-linear-gradient(left, #ffffff00 0%, #4e57ff91 100%, #4E56FF 57%, #4E56FF 100%);
+    background: -webkit-linear-gradient(left, #ffffff00 0%, #4E56FF 100%, #4E56FF 57%, #4E56FF 100%);
+    background: linear-gradient(left, #ffffff00 0%, #4E56FF 100%, #4E56FF 57%, #4E56FF 100%);
+}
+
+.ebook-text {
+    padding-bottom: 50px;
+}
+
+.green-title {
+    font-weight: 700;
+    color: var(--verde);
+}
+
+.img-e-book {
+    position: relative;
+    width: 581px;
+    top: 106px;
+    right: 58px;
+}
+
+/* Card Inscricao */
+
+.card-inscricao {
+    background-color: var(--azul-2);
+}
+
+.input-field {
+    background-color: var(--azul);
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+}
+
+.input-field input {
+    background-color: var(--azul);
+    border: none;
+    color: #fff;
+}
+
+.input-field input::placeholder {
+    color: #fff;
+}
+
+.input-field input:focus {
+    border: none;
+}
+
+.btn-card {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    background-color: var(--verde);
+    border: none;
+    border-bottom: 8px outset #7aeb87a8;
+    border-radius: 7px;
+}
+
+
+/* video Section */
+
+.iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.video-section {
+    background-color: #EBEBEB;
+    padding: 100px 0;
+}
+
+.video-section h2 {
+    color: var(--azul);
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    color: var(--azul);
+    padding: 50px 0 20px 0;
+}
+
+.footer p {
+   margin: 20px 0;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+}
+
+.social-medias img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.social-medias div {
+    border: solid 2px var(--azul);
+    border-radius: 50%;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.social-medias div:hover {
+    background-color: #7077fa5e;
+}
+
+/* Mobile */
+
+@media (max-width: 992px) {
+    .ebook-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .iframe {
+        width: 100%;
+        
+    }
+}
+
+@media (max-width: 568px) {
+    .social-medias div {
+        margin: 0 5px;
+    }
+}
+
+/* e-book */
+
+@media (min-width: 1200px) and (max-width:1400px) {
+    .img-e-book {
+        position: relative;
+        width: 471px;
+        top: 83px;
+        right: 1px;
+    }
+    
+}
