@@ -49,17 +49,17 @@
 
 .img-e-book img{
     position: relative;
-    width: 460px;
+    width: 400px;
     top: 60px;
-    right: 80px;
+    right: 60px;
 }
 
 /* Card Inscricao */
 
 .card-inscricao {
     background-color: #4D067F;
-    width: 278px;
-    height: 330px;
+    width: 340px;
+    height: 380px;
 }
 
 .card-inscricao p {
@@ -78,6 +78,7 @@
     border: none;
     color: #fff;
     width: 100%;
+    padding: 5px;
 }
 
 .input-field input::placeholder {
@@ -93,7 +94,7 @@
 
 .btn-card {
     width: 100%;
-    height: 38px;
+    height: 45px;
     font-weight: bold;
     background-color: var(--verde);
     border: none;
