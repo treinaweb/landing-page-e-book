@@ -163,6 +163,12 @@
 
 /* Mobile */
 
+@media (max-width: 1200px) {
+    .card-inscricao {
+        width: 320px;
+    }
+}
+
 @media (max-width: 768px) {
     .iframe {
         width: 100%; 
@@ -180,13 +186,61 @@
     }
 }
 
-/* e-book */
-
-@media (min-width: 1200px) and (max-width:1400px) {
-    .img-e-book img{
-        position: relative;
-        width: 460px;
-        top: 70px;
-        right: 109px;
+@media (max-width: 400px) {
+    .card-inscricao {
+        width: 100%;
     }
 }
+
+
+/* e-book */
+@media (max-width: 1400px) {
+    .img-e-book img {
+        width: 384px;
+        top: 51px;
+        right: 72px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .img-e-book img {
+        width: 384px;
+        top: 51px;
+        right: 94px;
+    }
+}
+
+@media (max-width: 992px) {
+    .img-e-book img {
+        width: 384px;
+        top: 13px;
+        right: -166px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-e-book img {
+        width: 370px;
+        top: -10px;
+        right: -87px;
+    }
+}
+
+@media (max-width: 567px) {
+    .img-e-book img {
+        width: 300px;
+        top: -14px;
+        right: -14%;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .img-e-book img {
+        width: 250px;
+        top: -14px;
+        right: -47px;
+
+    }
+}
+
